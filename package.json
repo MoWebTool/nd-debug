@@ -1,0 +1,27 @@
+{
+  "name": "nd-debug",
+  "version": "1.0.0",
+  "description": "debug, console wrapped",
+  "keywords": [],
+  "homepage": "https://github.com/ndfront/nd-debug",
+  "author": {
+    "name": "crossjs",
+    "email": "liwenfu@crossjs.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ndfront/nd-debug.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ndfront/nd-debug/issues"
+  },
+  "licenses": "MIT",
+  "devDependencies": {},
+  "spm": {
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    }
+  }
+}
