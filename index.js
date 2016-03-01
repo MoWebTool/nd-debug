@@ -8,23 +8,23 @@
 module.exports = {
 
   log: function() {
-    console.log.apply(null, arguments);
+    console.log.apply(console, arguments);
   },
 
   warn: function() {
-    console.warn.apply(null, arguments);
+    console.warn.apply(console, arguments);
   },
 
   error: function() {
-    console.error.apply(null, arguments);
+    console.error.apply(console, arguments);
   },
 
   info: function() {
-    console.info.apply(null, arguments);
+    console.info.apply(console, arguments);
   },
 
   success: function() {
-    console.info.apply(null, arguments);
+    console.info.apply(console, arguments);
   }
 
 };
